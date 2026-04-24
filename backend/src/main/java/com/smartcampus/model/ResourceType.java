@@ -1,0 +1,16 @@
+package com.smartcampus.model;
+
+public enum ResourceType {
+    LECTURE_HALL,
+    COMPUTER_LAB,
+    MEETING_ROOM,
+    AUDITORIUM,
+    SEMINAR_HALL,
+    SPORTS_GROUND,
+    CONFERENCE_ROOM,
+    LIBRARY_ROOM,
+    PROJECTOR,
+    CAMERA_EQUIPMENT,
+    SOUND_SYSTEM,
+    LABORATORY_EQUIPMENT
+}
