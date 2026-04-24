@@ -11,4 +11,6 @@ public interface ResourceService {
     Resource getResourceById(String id);
     Resource updateResource(String id, ResourceDto resourceDto);
     void deleteResource(String id);
+
+    
 }
