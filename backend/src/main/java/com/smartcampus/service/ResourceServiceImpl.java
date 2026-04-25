@@ -68,6 +68,9 @@ public class ResourceServiceImpl implements ResourceService {
                 .orElseThrow(() -> new RuntimeException("Resource not found with id: " + id));
     }
 
+
+
+
     @Override
     public Resource updateResource(String id, ResourceDto resourceDto) {
         Resource existingResource = getResourceById(id);
@@ -98,4 +101,7 @@ public class ResourceServiceImpl implements ResourceService {
         long count = resourceRepository.countByResourceType(type);
         return String.format("%s-%03d", prefix, count + 1);
     }
+
+
+    
 }
