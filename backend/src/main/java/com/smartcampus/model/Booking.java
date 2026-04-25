@@ -32,4 +32,6 @@ public class Booking {
     
     @Builder.Default
     private LocalDateTime createdAt = LocalDateTime.now();
+
+    
 }
